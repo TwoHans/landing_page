@@ -16,9 +16,7 @@ ul {
 }
 
 
-img {
-    max-width: 100%;
-}
+
 
 .navbar {
     background-color: #1f2937;
@@ -90,11 +88,24 @@ img {
 
 .header img {
     max-width: 400px;
+    flex: 1;
+    height: auto;
 }
 .header .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    text-align: left;
     justify-content: space-between;
+    gap: 20px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    height: 60px;  
+}
+
+.header .text-content {
+    flex: 1;
+    max-width: 50%;
 }
